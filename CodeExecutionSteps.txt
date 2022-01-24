@@ -1,0 +1,103 @@
+
+HW1 - Machine Learning - CS6375
+
+Steps to execute code:
+
+1. Multinomial Naive Bayes :
+
+Filename : BOW_Naive_Bayes.py
+
+Command to execute this algorithm
+
+python BOW_Naive_Bayes.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+2. Discrete Naive Bayes :
+
+Filename : BERN_Naive_Bayes.py
+
+Command to execute this algorithm
+
+python BERN_Naive_Bayes.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+3. Logistic regression
+
+Bag of words model :
+
+Filename : BOW_logistic_regression.py
+
+Command to execute this algorithm
+
+python BOW_logistic_regression.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+Bernoulli model :
+
+Filename : BERN_logistic_regression.py
+
+Command to execute this algorithm
+
+python BERN_logistic_regression.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+4. SGDClassifier
+
+Bag of words model :
+
+Filename : BOW_SGDC_Classifier.py
+
+Command to execute this algorithm
+
+python BOW_SGDC_Classifier.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+Bernoulli model :
+
+Filename : BERN_SGDC_Classifier.py
+
+Command to execute this algorithm
+
+python BERN_SGDC_Classifier.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+                                      
+Python version 3.9
+
+Libraries used are :
+
+Naive Bayes :
+
+import os
+import pandas as pd
+import math
+import string
+import sys
+
+Logistic Regression:
+
+import os
+import pandas as pd
+import numpy as np
+import math
+import random
+import string
+import sys
+
+SGDClassifier:
+
+import os
+import pandas as pd
+import numpy as np
+import math
+import random
+import string
+from sklearn.model_selection import GridSearchCV
+from sklearn.linear_model import SGDClassifier
+import sys
